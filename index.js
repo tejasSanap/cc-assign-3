@@ -3,15 +3,15 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('wassup')
 })
 
 app.get('/cloud-computing',(req,res) => {
-    res.send('I love Cloud Computing and Devops')
+    res.send('man this is cc assign')
 })
 
 app.get('/student-details',(req,res) => {
-    res.send('I am Varad Rajopadhye of TY - IT A , Roll no : 331048 and PRN  : 22010084')
+    res.send('I am Tejas sanap of TY - IT A , Roll no : 331053 and PRN  : 22010588')
 })
 
 app.listen(port, () => {
